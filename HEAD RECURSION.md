@@ -16,9 +16,22 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 7. **Stop**
 
 ## 💻 PROGRAM:
-
-ADD CODE HERE
-
+```
+def even(n):
+    if n==0:
+        return
+    even(n-1)
+    if n%2==0:
+        print(n,end=" ")
+n=int(input())
+even(n)
+```
 ## OUTPUT
 
+<img width="1027" height="270" alt="image" src="https://github.com/user-attachments/assets/12f9bdc7-1046-4003-b685-15ec06f3343f" />
+
+
 ## RESULT
+Thus, the program demonstrates how to print all even numbers from 1 to n using a recursive function and has been executed successfully.
+
+
